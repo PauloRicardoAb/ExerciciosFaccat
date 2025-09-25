@@ -1,22 +1,18 @@
 Algoritmo "ex12-faccat"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/09/2025
+// Disciplina  : Lógica de Programação
+// Professor   : Jailson
+// Descrição   : converter temperatura em Fahrenheit para Celcius
+// Autor(a)    : Paulo Ricardo
+// Data atual  : 18/09/2025
 Var
 // Seção de Declarações das variáveis 
-grausC: real
-grausF: real
-
+tempC, tempF: real
 
 Inicio
-escreval("Transformação de Graus Fahrenheit em Celcius")
-escreval("Digite a temperatura em Graus Fahrenheit")
-leia(grausF)
-
-grausC<- (grausF - 32) * 5/9
-escreval("A temperatura em Celsius é: ", grausC)
-
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Digite a temperatura em Fahrenheit: ")
+leia(tempF)
+tempC<- (tempF-32) * 5/9
+escreval("A temperatura em celcius é: ", tempC, "°C")
 
 Fimalgoritmo
